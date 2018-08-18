@@ -4,7 +4,7 @@
 
 ## Usage
 
-### Simple
+### Uncontrolled
 
 ```js
 import { InfiniteRange } from 'react-infinite-range'
@@ -23,6 +23,6 @@ const Form = ({ updateInputState }) => (
 )
 ```
 
-### With external update
+### Controlled
 
 [InfiniteRange](/lib/InfiniteRange) owns the state of the input component. This is a design decision aimed on reduction of possible issues in situations, where you might want to update the state of the input directly. Read more in [You Probably Don't Need Derived State](https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html)
