@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "BABEL_ENV=commonjs jest"
+    "test": "jest"
   },
   "peerDependencies": {
     "react": ">=15"
