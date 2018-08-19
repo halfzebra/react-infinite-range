@@ -1,5 +1,7 @@
 # react-infinite-range [![Build Status](https://travis-ci.org/halfzebra/react-infinite-range.svg?branch=master)](https://travis-ci.org/halfzebra/react-infinite-range)
 
+[Higher-Order Component](https://reactjs.org/docs/higher-order-components.html) for creating infinite range input.
+
 <img width="250px" alt="react-infinite-range example" src="https://user-images.githubusercontent.com/3983879/44298581-eb148080-a2e5-11e8-9ce0-f1cd50297fcc.gif">
 
 ## Usage

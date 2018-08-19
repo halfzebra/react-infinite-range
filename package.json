@@ -1,7 +1,7 @@
 {
   "name": "react-infinite-range",
   "version": "0.1.0",
-  "description": "",
+  "description": "Higher-Order Component for creating infinite range input.",
   "main": "dist/react-infinite-range.cjs.js",
   "module": "dist/react-infinite-range.esm.js",
   "scripts": {
@@ -12,7 +12,11 @@
     "react": ">=15",
     "prop-types": ">=15"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "high-order-component",
+    "range-input"
+  ],
   "author": "Eduard Kyvenko <eduard.kyvenko@gmail.com>",
   "license": "MIT",
   "dependencies": {
