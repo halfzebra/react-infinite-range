@@ -4,15 +4,13 @@
   "description": "",
   "main": "dist/react-infinite-range.cjs.js",
   "module": "dist/react-infinite-range.esm.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "build:code": "rollup -c",
     "test": "jest"
   },
   "peerDependencies": {
-    "react": ">=15"
+    "react": ">=15",
+    "prop-types": ">=15"
   },
   "keywords": [],
   "author": "Eduard Kyvenko <eduard.kyvenko@gmail.com>",
