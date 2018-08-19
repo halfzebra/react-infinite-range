@@ -2,11 +2,13 @@
   "name": "react-infinite-range",
   "version": "0.1.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "dist/react-infinite-range.cjs.js",
+  "module": "dist/react-infinite-range.esm.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
+    "build:code": "rollup -c",
     "test": "jest"
   },
   "peerDependencies": {
@@ -19,14 +21,28 @@
     "react-motion": "^0.5.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.1",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-rc.1",
+    "@babel/plugin-transform-runtime": "^7.0.0-rc.1",
+    "@babel/polyfill": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "@babel/preset-flow": "^7.0.0-rc.1",
+    "@babel/preset-react": "^7.0.0-rc.1",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.4.2",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.14",
     "jest": "^23.5.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-test-renderer": "^16.4.2"
+    "react-test-renderer": "^16.4.2",
+    "rollup": "^0.62.0",
+    "rollup-plugin-babel": "^4.0.0-beta.8",
+    "rollup-plugin-commonjs": "^9.1.4",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-size-snapshot": "^0.6.0",
+    "rollup-plugin-uglify": "^4.0.0"
   },
   "jest": {
     "testRegex": "(.*\\.spec.js)$"
