@@ -1,4 +1,4 @@
-# react-infinite-range [![Build Status](https://travis-ci.org/halfzebra/react-infinite-range.svg?branch=master)](https://travis-ci.org/halfzebra/react-infinite-range)
+# react-infinite-range [![Build Status](https://travis-ci.org/halfzebra/react-infinite-range.svg?branch=master)](https://travis-ci.org/halfzebra/react-infinite-range) [![npm version](https://badge.fury.io/js/react-infinite-range.svg)](https://badge.fury.io/js/react-infinite-range)
 
 [Higher-Order Component](https://reactjs.org/docs/higher-order-components.html) for creating infinite range input.
 
