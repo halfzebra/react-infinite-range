@@ -1,12 +1,13 @@
 {
   "name": "react-infinite-range",
   "version": "0.2.0",
-  "description": "Higher-Order Component for creating infinite range input.",
+  "description": "React Component for creating infinite range inputs.",
   "main": "dist/react-infinite-range.cjs.js",
   "module": "dist/react-infinite-range.esm.js",
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
+    "flow_check": "flow check",
     "format": "prettier --write lib/**/*.js rollup.config.js"
   },
   "peerDependencies": {
@@ -39,6 +40,7 @@
     "babel-plugin-transform-react-remove-prop-types": "^0.4.14",
     "jest": "^23.5.0",
     "prettier": "^1.14.2",
+    "flow-bin": "^0.53.1",
     "prop-types": "^15.6.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
