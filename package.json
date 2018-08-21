@@ -9,7 +9,8 @@
     "test": "jest",
     "flow_check": "flow check",
     "format": "prettier --write lib/**/*.js rollup.config.js",
-    "preversion": "npm run test && npm run flow_check"
+    "preversion": "npm run test && npm run flow_check",
+    "prepublish": "npm run build"
   },
   "peerDependencies": {
     "react": ">=15",
