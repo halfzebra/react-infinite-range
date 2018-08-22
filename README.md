@@ -10,22 +10,19 @@ React Component for creating infinite range inputs.
 
 ```js
 import { InfiniteRange } from 'react-infinite-range'
-
-const Form = ({ updateInputState }) => (
-  <form>
-      <InfiniteRange
-        floor={100}
-        ceiling={1000000000}
-        step={100}
-        chunkSize={500000}
-        defaultValue={100}
-      >
-        {props => <input type="range" { ...props } />}
-      </InfiniteRange>
-  </form>
-)
+// In your render:
+<InfiniteRange
+  floor={100}
+  ceiling={1000000000}
+  step={100}
+  chunkSize={500000}
+  defaultValue={100}
+>
+  {props => <input type="range" { ...props } />}
+</InfiniteRange>
 ```
 
 ### [Controlled](https://reactjs.org/docs/forms.html#controlled-components)
 
 [InfiniteRange](/lib/InfiniteRange) owns the state of the input component and derives it from props. This is a design decision to hide implementation details from the consumer. Read more in [You Probably Don't Need Derived State](https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html).
+
