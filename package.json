@@ -7,7 +7,8 @@
   "scripts": {
     "build": "rollup -c",
     "test": "jest",
-    "flow_check": "flow check",
+    "test:watch": "jest --watch",
+    "flow-check": "flow check",
     "format": "prettier --write lib/**/*.js rollup.config.js",
     "preversion": "npm run test && npm run flow_check",
     "prepublish": "npm run build"
