@@ -24,6 +24,10 @@
     "range-input"
   ],
   "author": "Eduard Kyvenko <eduard.kyvenko@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/halfzebra/react-infinite-range.git"
+  },
   "license": "MIT",
   "dependencies": {
     "react-motion": "^0.5.2",
