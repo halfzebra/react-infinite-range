@@ -1,6 +1,6 @@
 {
   "name": "react-infinite-range",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "React Component for creating infinite range inputs.",
   "main": "dist/react-infinite-range.cjs.js",
   "module": "dist/react-infinite-range.esm.js",
