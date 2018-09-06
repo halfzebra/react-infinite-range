@@ -1,2 +1,6 @@
 /**/*.spec.js
 .idea
+.travis.yml
+.prettierrc.json
+.editorconfig
+rollup.config.js
