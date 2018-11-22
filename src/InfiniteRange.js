@@ -3,15 +3,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { InfinteRangeTransitions } from './InfiniteRangeTransitions';
+import { numericValueFromEvent } from './numericValueFromEvent';
+import type {Element} from 'react';
 import type {
   InfiniteRangeInputState,
   InfiniteRangeConfiguration
 } from './InfiniteRangeTransitions';
-import { numericValueFromEvent } from './numericValueFromEvent';
-
-/*::
-import type {Element} from 'react';
-*/
 
 const noop = () => void null;
 

@@ -10,9 +10,7 @@ import type {
 } from './InfiniteRangeTransitions';
 import { numericValueFromEvent } from './numericValueFromEvent';
 
-/*::
 import type {Element} from 'react';
-*/
 
 const snapIfWithinOffset = (
   current: number,
